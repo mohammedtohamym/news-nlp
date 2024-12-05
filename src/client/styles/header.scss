@@ -1,0 +1,14 @@
+$primary-color: #F2E3C6;
+$header-color: #D35400;
+$header-padding: 20px 50px;
+$font-size-large: 2em;
+
+header {
+    background-color: $primary-color;
+    color: $header-color;
+    text-align: center;
+    padding: $header-padding;
+    font-size: $font-size-large;
+    font-weight: bold;
+    border-bottom: 2px solid $header-color;
+}

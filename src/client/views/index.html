@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sentiment Analyzer</title>
+</head>
+
+<body>
+
+    <header>
+        Sentiment Analyzer App
+    </header>
+
+    <main>
+        <section>
+            <form id="urlForm">
+                <input id="urlInput" type="text" name="url" placeholder="Enter URL" required>
+                <div id="urlError" style="display:none;">Please enter a valid URL!</div>
+                <button id="submitBtn" type="submit">Submit</button>
+            </form>
+            <div id="analysisResults">
+                <div id="analysisTitle"></div>
+                <div id="agreementValue"></div>
+                <div id="confidenceValue"></div>
+                <div id="ironyValue"></div>
+                <div id="scoreTagValue"></div>
+                <div id="subjectivityValue"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sentiment Analysis. All rights reserved.</p>
+    </footer>
+
+    <script src="js/formHandler.js"></script>
+    <script src="js/UrlChecker.js"></script>
+
+</body>
+
+</html>

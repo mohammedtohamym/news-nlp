@@ -1,0 +1,18 @@
+$footer-bg-color: #F2E3C6;
+$footer-text-color: #D35400;
+
+footer {
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+    font-size: 1.8em;
+    padding: 15px 30px;
+    text-align: left;
+    margin-top: 30px;
+    border-top: 2px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
